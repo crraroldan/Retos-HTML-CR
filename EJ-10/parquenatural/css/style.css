@@ -4,27 +4,35 @@ body{
 
 .contenedor{
     background-color: rgb(255, 255, 255);
-    height: 500px;
+    height: 750px;
     padding: 2em;
     margin: 5vh;
     border: 2px solid rgb(114, 114, 114);
+   
+    
 }
 
 
 .caja1{
   background-color: rgb(255, 255, 255);
-  width: 1020px;
-  height: 100px;
-  float: right;
-
+  width: 900px;
+  height: 60px;
+  float: center;
+  float:top;
+  position: relative;
+  left: 10em;
+  
+  
 }
+
 
 .caja2{
     background-color: rgb(255, 255, 255);
     width: 1020px;
     height: 400px;
     float: right;
-    /* clear: both */
+    
+   
 }
 
 
@@ -33,35 +41,38 @@ body{
     background-color: rgb(255, 255, 255);
     width: 150px;
     height: 500px;
-    float: left;   
+    float: left;
+
+    
 }
 
 .caja4{
-    background-color: rgb(105, 195, 9);
-    width: 140px;
+   
+    width: 130px;
     height: 30px;
-     float: left;    
-    border: 2px solid rgb(54, 155, 4);
+    float: left;    
     margin:0 0 8px;
 	overflow:hidden; 
     padding:3px; 
     position: relative;
-    top: 8em;
+    top: 6em;
+    background: linear-gradient(rgb(162, 222, 125) 70%, rgb(255, 255, 255)); 
    
 
 }
 
 
 .caja44{
-    background-color: rgb(202, 138, 2);
-    width: 140px;
+   
+    width: 130px;
     height: 30px;
-     float: left;    
-    border: 2px solid rgb(203, 166, 2);
+    float: left;    
     margin:0 0 8px;
 	overflow:hidden; 
     padding:3px; 
     position: relative;
-    top: 8em;
+    top: 6em;
+    background: linear-gradient(rgb(234, 192, 6) 70%, rgb(255, 255, 255)); 
+}
    
 
